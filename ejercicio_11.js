@@ -12,4 +12,6 @@ function getMultiplos(tamanio, multiplo) {
     console.log(lista)
 }
 
-getMultiplos(5, 5);
+let numero = +prompt("Digite un numero")
+
+getMultiplos(5, numero);
